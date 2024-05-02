@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ccc;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1 {
+    font-size: 25vh;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1 span {
+    display: inline-block;
+}
